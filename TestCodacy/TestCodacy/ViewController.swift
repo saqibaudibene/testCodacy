@@ -18,7 +18,20 @@ class ViewController: UIViewController {
     }
     
     
-
+    @IBAction func nextButtonTapped(_ sender: Any) {
+        
+        let storyboard  = UIStoryboard(name: "view2", bundle: nil)
+        
+        guard let viewController2 = storyboard.instantiateInitialViewController() as? ViewController2 else {
+            return
+        }
+        
+        
+        navigationController?.pushViewController(viewController2, animated: true)
+        
+        
+    }
+    
 }
 
 private extension ViewController {
