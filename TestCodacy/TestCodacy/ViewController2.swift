@@ -28,7 +28,7 @@ class ViewController2 : UIViewController {
         print(sum)
     }
     
-    
+     
     func func3() {
         let a = 1
         let b = 2
