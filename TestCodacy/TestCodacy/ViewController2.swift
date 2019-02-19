@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ViewController2: UIViewController {
+class ViewController2 : UIViewController {
     
 
     func func1() {
