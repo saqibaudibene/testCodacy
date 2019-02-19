@@ -11,5 +11,38 @@ import UIKit
 
 class ViewController2 : UIViewController {
     
+
+    func func1() {
+        let a = 1
+        let b = 2
+        
+        let sum = a + b
+        print(sum)
+    }
+    
+    func func2() {
+        let a = 1
+        let b = 2
+        
+        let sum = a + b
+        print(sum)
+    }
+    
+    
+    func func3() {
+        let a = 1
+        let b = 2
+        
+        let sum = a + b
+        print(sum)
+    }
+    
+    func func4() {
+        let a = 1
+        let b = 2
+        
+        let sum = a + b
+        print(sum)
+    }
     
 }
