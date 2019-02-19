@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ViewController2 : UIViewController {
+class ViewController2: UIViewController {
     
 
     func func1() {
@@ -28,7 +28,7 @@ class ViewController2 : UIViewController {
         print(sum)
     }
     
-     
+    
     func func3() {
         let a = 1
         let b = 2
